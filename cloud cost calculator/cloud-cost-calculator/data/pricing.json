@@ -1,0 +1,42 @@
+{
+  "currency": "USD",
+  "note": "Sample on-demand prices for learning purposes. Check each provider's official pricing page for current rates.",
+  "providers": {
+    "AWS": {
+      "compute": {
+        "small": 0.0208,
+        "medium": 0.0416,
+        "large": 0.0832,
+        "xlarge": 0.1664
+      },
+      "storage_per_gb_month": 0.023,
+      "transfer_out_per_gb": 0.09,
+      "free_transfer_gb": 100,
+      "database_per_hour": 0.017
+    },
+    "Azure": {
+      "compute": {
+        "small": 0.0208,
+        "medium": 0.0416,
+        "large": 0.0832,
+        "xlarge": 0.192
+      },
+      "storage_per_gb_month": 0.018,
+      "transfer_out_per_gb": 0.087,
+      "free_transfer_gb": 100,
+      "database_per_hour": 0.018
+    },
+    "GCP": {
+      "compute": {
+        "small": 0.0168,
+        "medium": 0.0335,
+        "large": 0.067,
+        "xlarge": 0.134
+      },
+      "storage_per_gb_month": 0.02,
+      "transfer_out_per_gb": 0.12,
+      "free_transfer_gb": 200,
+      "database_per_hour": 0.0150
+    }
+  }
+}
